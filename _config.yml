@@ -1,28 +1,40 @@
-name: Dan Middleton
 favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.51554
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Dan Middleton
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#9D2D3C'
-    - '#DDE4DD'
-    - '#BCAB47'
-    - '#6B574B'
-    - '#160600'
-  brandStrength: 0.48084950912743807
-  lightness: 0.6481716844718903
-  saturation: 0.5083248023875058
-  rhythmicContrast: 0.11652752803638577
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.7127659
+  brandStrength: 0.6659575
+  lightness: 0.7723404
+  brandColors:
+    - '#FFFFFF'
+    - '#D28A72'
+    - '#33201A'
+    - '#656E42'
+    - '#D2EA4C'
+  rhythmicContrast: 0.2851064
+typography_spectrum: 0.06382979
+layout_spectrum: 1
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
